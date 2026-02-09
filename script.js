@@ -436,7 +436,7 @@ function generateOrderMessage() {
     
     message += '━━━━━━━━━━━━━━━━━━━\n';
     message += `TỔNG CỘNG: ${formatPrice(calculateTotal())}\n\n`;
-    message += 'Liên hệ: 0984 771 687\n';
+    message += 'Liên hệ: 0327002590\n';
     message += 'Vui Lòng Nhập Địa Chỉ (Khu Vực Cầu Kè) : ';
     
     return message;
@@ -448,7 +448,7 @@ function orderViaSMS() {
     
     closeOrderModal();
     
-    const phoneNumber = '0984771687';
+    const phoneNumber = '0327002590';
     const encodedMessage = encodeURIComponent(message);
     window.location.href = `sms:${phoneNumber}?body=${encodedMessage}`;
 }
@@ -470,7 +470,7 @@ function orderViaZalo() {
     
     closeOrderModal();
     
-    const phoneNumber = '0984771687';
+    const phoneNumber = '0327002590';
     
     // Zalo deep link - sẽ mở app Zalo nếu có, hoặc Zalo web
     const zaloLink = `https://zalo.me/${phoneNumber}`;
