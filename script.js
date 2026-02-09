@@ -524,10 +524,9 @@ function generateOrderMessage() {
     });
     
     message += '━━━━━━━━━━━━━━━━━━━\n';
-    message += `💰 TỔNG CỘNG: ${formatPrice(calculateTotal())}\n\n`;
-    message += `📍 ĐỊA CHỈ: ${address}\n\n`;
-    message += '📞 Liên hệ: 0327002590\n';
-    message += '🙏 Cảm ơn quý khách!';
+    message += ` TỔNG CỘNG: ${formatPrice(calculateTotal())}\n\n`;
+    message += ` ĐỊA CHỈ: ${address}\n\n`;
+    message += ' Cảm ơn quý khách!';
     
     return message;
 }
